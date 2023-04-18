@@ -466,7 +466,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".el-table .warning-row {\n  background: oldlace;\n}\n.el-table .success-row {\n  background: #f0f9eb;\n}\n.preview-image:hover .image-overlay, .preview-image:hover .image-overlay-details {\n  opacity: 1;\n  display: flex;\n  justify-content: center;\n}\n.image-primary{\n  background-color: transparent !important;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".el-table .warning-row {\n  background: oldlace;\n}\n.el-table .success-row {\n  background: #f0f9eb;\n}\n.preview-image:hover .image-overlay, .preview-image:hover .image-overlay-details {\n  opacity: 1;\n  display: flex;\n  justify-content: center;\n}\n.image-primary{\n  background-color: transparent !important;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

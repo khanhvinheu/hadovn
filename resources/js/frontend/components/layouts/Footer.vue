@@ -8,7 +8,7 @@
                         <div class="footer-menu__item">
                             <h4 class="footer-menu__title">Khám phá </h4>
                             <ul>
-                                <li v-for="item in $store.state.category.categorys"><a>{{item['title']}}</a></li>                              
+                                <li v-for="item in $store.state.category.categorys"><a>{{item['title']}}</a></li>
                             </ul>
                         </div>
                         <div class="footer-menu__item">
@@ -24,7 +24,7 @@
                                        target="_blank">Group mặc đẹp sống chất</a></li>
                            </ul> -->
                         </div>
-                        <div class="footer-menu__item">                           
+                        <div class="footer-menu__item">
                             <h4 class="footer-menu__title">Về HaDoVn</h4>
                             <ul>
                                 <li><a> Câu chuyện về HaDoVn</a></li>
@@ -34,6 +34,8 @@
                         <div class="footer-menu__item">
                             <h4 class="footer-menu__title">Địa chỉ liên hệ</h4>
                             <p class="footer-menu__desciption" v-html="diaChi"></p>
+                            <h4 class="footer-menu__title">Email</h4>
+                            <p class="footer-menu__desciption">{{$appSetting.EMAIL}}</p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +60,7 @@
                                 Hotline
                             </span>
                             <p class="footer-info__desciption">
-                                <a href="tel: 0397957575">(039.7957.575)</a>
+                                <a :href="'tel:'+$appSetting.PHONE_NUMBER">({{$appSetting.PHONE_NUMBER}})</a>
                             </p>
                         </div>
                     </div>
@@ -122,16 +124,16 @@
                 dataDVKH:[
                     {path:'',title:'Hỏi đáp - FAQs'},
                     {path:'',title:'Chính sách đổi trả 60 ngày'},
-                    {path:'',title:'Liên hệ'},                   
+                    {path:'',title:'Liên hệ'},
                     {path:'',title:'Khách hàng hài lòng 100%'},
                     {path:'',title:'Chính sách khuyến mãi'},
-                    {path:'',title:'Chính sách giao hàng'},                  
+                    {path:'',title:'Chính sách giao hàng'},
                 ],
                 diaChi:`<u>Thủ Đức :</u> Số 36, Đường số 4, Linh Chiểu, Thủ ĐỨc`
             };
         },
         mounted(){
-           
+
         },
         methods: {
 

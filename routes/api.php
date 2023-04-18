@@ -89,6 +89,7 @@ Route::prefix('admin')->namespace('admin')->group(function () {
 
     //Setting
     Route::post('setting/updateSetting','SettingController@UpdateSetting');
+    Route::post('setting/updateAllSetting','SettingController@UpdateAllSetting');
     Route::get('setting/fetchSetting','SettingController@fetchSetting');
     //Blog
     // Banner

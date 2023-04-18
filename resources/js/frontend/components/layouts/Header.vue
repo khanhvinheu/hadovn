@@ -306,6 +306,7 @@
                         logError(err);
                     }
                 });
+                this.showMenuMobile=true
             },
 
             getList(){

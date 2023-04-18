@@ -212,7 +212,7 @@ export default {
 }
 .title__category{
     position: relative;
-    z-index: 999; font-size: 35px;
+    z-index: 9; font-size: 35px;
     text-transform: uppercase;
     font-weight: 400; color: #ffffff; background-color: rgb(0,0,0,0.3); padding: 10px; border-radius: 10px
 }

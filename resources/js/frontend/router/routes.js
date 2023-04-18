@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import appSetting from '/config/appSetting'
+import appConfig from '/config/appConfig'
 
 Vue.use(VueRouter);
 const routes = [
@@ -113,7 +114,7 @@ router.afterEach((to) => {
     var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
     link.type = 'image/x-icon';
     link.rel = 'shortcut icon';
-    link.href = './img/7.jpg';
+    link.href = appConfig.LOGO_META;
     document.getElementsByTagName('head')[0].appendChild(link);
 })();
 

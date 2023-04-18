@@ -2082,7 +2082,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".custorm-upload .el-upload--picture-card {\n  width: 120px;\n  height: unset;\n  line-height: 10px;\n  padding: 25px;\n}\n.custorm-upload .el-upload-list--picture-card .el-upload-list__item {\n  width: 120px;\n  height: 120px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".custorm-upload .el-upload--picture-card {\n  width: 120px;\n  height: unset;\n  line-height: 10px;\n  padding: 25px;\n}\n.custorm-upload .el-upload-list--picture-card .el-upload-list__item {\n  width: 120px;\n  height: 120px;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2106,7 +2106,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".custom-tree-node {\n  flex: 1;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  font-size: 14px;\n  padding-right: 8px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".custom-tree-node {\n  flex: 1;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  font-size: 14px;\n  padding-right: 8px;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

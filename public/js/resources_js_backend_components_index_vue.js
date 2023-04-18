@@ -828,7 +828,7 @@ var render = function render() {
       opacity: ".8"
     },
     attrs: {
-      src: _vm.$appSetting.LOGO_APP,
+      src: _vm.$appSetting.LOGO_META,
       alt: "AdminLTE Logo"
     }
   }), _vm._v(" "), _c("span", {

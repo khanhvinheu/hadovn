@@ -79,11 +79,11 @@ var render = function render() {
     staticStyle: {
       color: "rgb(0,0,0,0.5)"
     }
-  }, [_vm._v(" BIDV: 9090909909090909")]), _vm._v(" "), _c("span", {
+  }, [_vm._v(" Tên chủ tài khoản: Đặng Đình Đông")]), _vm._v(" "), _c("span", {
     staticStyle: {
       color: "rgb(0,0,0,0.5)"
     }
-  }, [_vm._v(" Viettinbank: 9090909909090909")]), _vm._v(" "), _c("span", {
+  }, [_vm._v(" Techcombank Thủ đức:  " + _vm._s(_vm.$appSetting.STK_TECH))]), _vm._v(" "), _c("span", {
     staticStyle: {
       "text-decoration-line": "underline",
       color: "rgb(0,0,0,0.5)"

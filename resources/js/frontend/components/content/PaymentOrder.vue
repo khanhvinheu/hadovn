@@ -7,8 +7,8 @@
             <span style="color: rgb(0,0,0,0.2)">Quí khách vui lòng chuyển khoản đến một trong các tài khoản theo hướng dẫn</span>
             <div style="border: 1px dotted rgb(0,0,0,0.1); text-align: left; padding: 10px; display: flex; flex-direction: column">
                <span style="text-decoration-line:underline; color: rgb(0,0,0,0.5)"> Thông tin tài khoản hưởng (nhận)</span>
-               <span style="color: rgb(0,0,0,0.5)"> BIDV: 9090909909090909</span>
-               <span style="color: rgb(0,0,0,0.5)"> Viettinbank: 9090909909090909</span>
+               <span style="color: rgb(0,0,0,0.5)"> Tên chủ tài khoản: Đặng Đình Đông</span>
+               <span style="color: rgb(0,0,0,0.5)"> Techcombank Thủ đức:  {{$appSetting.STK_TECH}}</span>
                <span style="text-decoration-line:underline; color: rgb(0,0,0,0.5)"> Nội dung chuyển khoản:</span>
                 <span style="color: rgb(0,0,0,0.5)">"Thanh toan don hang -
                     <span style="color: #239a1a">{{$route.params.order_code}}"</span>
