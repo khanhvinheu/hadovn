@@ -127,6 +127,7 @@ class OrderController extends Controller
             $orderProduct->insert($paramOrderDetail);
             if($orderMember &&$order && $orderProduct){
                 DB::commit();
+                $this->sendMess();
                 return response()->json(['success'=>true, 'mess'=>'Thêm mới thành công!','order_code'=>$order->order_code]);
             }else{
                 return response()->json(['success'=>false, 'mess'=>'Thêm mới thất bại!']);
@@ -137,6 +138,32 @@ class OrderController extends Controller
         }
 
 
+    }
+
+    public function sendMess(){
+        $curl = curl_init();
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => 'https://hooks.slack.com/services/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',
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => '',
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 0,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => 'POST',
+            CURLOPT_POSTFIELDS =>'{
+                "text": "Đã có đơn hàng được tạo",
+                "channel": "C0541TD0TBP",
+                "username": "HadoVN"
+            }',
+            CURLOPT_HTTPHEADER => array(
+                'Content-type: application/json'
+            ),
+        ));
+
+        $response = curl_exec($curl);
+        curl_close($curl);
+        return $response;
     }
 
     /**
