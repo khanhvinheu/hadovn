@@ -1,5 +1,5 @@
 <template>
-  <footer class="main-footer" style="font-size: 13px;">
+  <footer class="main-footer" style="font-size: 13px;padding: 10px">
     <strong>Copyright &copy; 2023 <a href="https://hadovn.com/">hadovn.com</a>.</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">

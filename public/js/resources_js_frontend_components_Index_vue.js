@@ -458,7 +458,20 @@ var render = function render() {
     attrs: {
       href: "tel:" + _vm.$appSetting.PHONE_NUMBER
     }
-  }, [_vm._v("(" + _vm._s(_vm.$appSetting.PHONE_NUMBER) + ")")])])])]), _vm._v(" "), _vm._m(2)])]), _vm._v(" "), _vm._m(3)])]);
+  }, [_vm._v("(" + _vm._s(_vm.$appSetting.PHONE_NUMBER) + ")")])])])]), _vm._v(" "), _c("div", {
+    staticClass: "footer-social"
+  }, [_vm._m(2), _vm._v(" "), _vm._m(3), _vm._v(" "), _vm._m(4), _vm._v(" "), _c("a", {
+    staticClass: "footer-social__item",
+    attrs: {
+      href: "http://zalo.me/0" + _vm.$appSetting.ZALO,
+      target: "_blank"
+    }
+  }, [_c("img", {
+    attrs: {
+      src: "/img/zalo.svg",
+      alt: "Footer Icon Zalo"
+    }
+  })])])])]), _vm._v(" "), _vm._m(5)])]);
 };
 var staticRenderFns = [function () {
   var _vm = this,
@@ -482,9 +495,7 @@ var staticRenderFns = [function () {
 }, function () {
   var _vm = this,
     _c = _vm._self._c;
-  return _c("div", {
-    staticClass: "footer-social"
-  }, [_c("a", {
+  return _c("a", {
     staticClass: "footer-social__item",
     attrs: {
       href: "https://www.facebook.com/DBStorethoitrangcaocap13",
@@ -495,7 +506,11 @@ var staticRenderFns = [function () {
       src: "/img/facebook.svg",
       alt: "Footer Icon facebook"
     }
-  })]), _vm._v(" "), _c("a", {
+  })]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("a", {
     staticClass: "footer-social__item",
     attrs: {
       href: "https://shopee.vn/havado.menswear",
@@ -506,7 +521,11 @@ var staticRenderFns = [function () {
       src: "/img/shopee.svg",
       alt: "Footer Icon shoppe"
     }
-  })]), _vm._v(" "), _c("a", {
+  })]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("a", {
     staticClass: "footer-social__item",
     attrs: {
       href: "https://www.tiktok.com/@havado.shop",
@@ -517,7 +536,7 @@ var staticRenderFns = [function () {
       src: "/img/tiktok.svg",
       alt: "Footer Icon tiktok"
     }
-  })])]);
+  })]);
 }, function () {
   var _vm = this,
     _c = _vm._self._c;

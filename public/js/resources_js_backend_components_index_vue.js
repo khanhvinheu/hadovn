@@ -457,7 +457,8 @@ var staticRenderFns = [function () {
   return _c("footer", {
     staticClass: "main-footer",
     staticStyle: {
-      "font-size": "13px"
+      "font-size": "13px",
+      padding: "10px"
     }
   }, [_c("strong", [_vm._v("Copyright © 2023 "), _c("a", {
     attrs: {

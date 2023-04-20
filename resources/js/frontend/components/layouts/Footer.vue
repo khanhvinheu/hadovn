@@ -80,6 +80,12 @@
                             <img src="/img/tiktok.svg"
                                 alt="Footer Icon tiktok">
                         </a>
+
+                        <a :href="'http://zalo.me/0'+$appSetting.ZALO"
+                            class="footer-social__item" target="_blank">
+                            <img src="/img/zalo.svg"
+                                alt="Footer Icon Zalo">
+                        </a>
                     </div>
                 </div>
             </div>
